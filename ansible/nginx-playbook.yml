@@ -3,6 +3,6 @@
   become: yes
   tasks:
     - name: Install Nginx on webservers
-      apt:
+      yum:
         name: nginx
         state: present
